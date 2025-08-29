@@ -6,7 +6,6 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 
 @Entity
@@ -23,11 +22,9 @@ public class Venda {
     public int quantidadeTotal;
 
     @ManyToOne
-    @JoinColumn(name = "cliente_id")
     public Cliente cliente;
 
     @ManyToOne
-    @JoinColumn(name = "funcionario_id")
     public Funcionario funcionario;
 
     
