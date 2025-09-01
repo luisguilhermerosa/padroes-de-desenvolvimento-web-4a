@@ -1,0 +1,10 @@
+insert into Categoria (nome) values ('Bebidas');
+insert into Categoria (nome) values ('Frutas');
+insert into Categoria (nome) values ('Carnes');
+insert into Categoria (nome) values ('Laticinios');
+insert into Categoria (nome) values ('Congelados');
+insert into Categoria (nome) values ('Enlatados');
+insert into Categoria (nome) values ('Higiene Pessoal');
+insert into Categoria (nome) values ('Limpeza');
+insert into Categoria (nome) values ('Padaria');
+insert into Categoria (nome) values ('Doces');
